@@ -1,9 +1,19 @@
-WSET2 v10 QUALITY CHECK
-Total genuinely distinct question stems: 246
-Duplicate stems after removing filler prefixes: 0
-Artificial filler prefixes remaining: 0
-Imported screenshot mock questions retained: 50/50
-Topic counts: {'principal': 93, 'regional': 60, 'vineyard': 27, 'winemaking': 20, 'sparkling': 26, 'service': 20}
+WSET2 v12 QUALITY CHECK
+{
+  "total_questions": 619,
+  "topic_counts": {
+    "principal": 295,
+    "regional": 127,
+    "vineyard": 63,
+    "winemaking": 40,
+    "sparkling": 48,
+    "service": 46
+  },
+  "duplicate_stems": 0,
+  "answer_leaks": 0,
+  "user_provided_mock_questions": 50,
+  "coverage_terms_checked": 56,
+  "coverage_terms_missing": []
+}
 
-Removed templated variants such as: For WSET Level 2..., Choose the best answer..., In this topic..., Which option correctly answers this question..., During exam revision....
-The bank is intentionally smaller rather than padding repeated facts to reach an arbitrary total.
+Built from the full published WSET Level 2 specification learning outcomes.
