@@ -1,0 +1,16 @@
+WSET2 v6 VERIFICATION
+
+Total questions: 1000
+Unique normalized question wordings: 1000
+Duplicate wordings found: 0
+Red/white grape option mismatches found: 0
+
+Topic counts:
+{'vineyard': 100, 'winemaking': 80, 'principal': 380, 'regional': 240, 'sparkling': 120, 'service': 80}
+
+Rules enforced:
+- Every one of the 1,000 question stems has unique wording.
+- No identical normalized stem appears twice.
+- Grape-variety distractors stay within the same wine colour as the correct grape.
+- Adaptive weighting remains enabled.
+- The 50-question mock exam uses the 5/4/19/12/6/4 topic split.

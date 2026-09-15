@@ -1,37 +1,21 @@
-WSET LEVEL 2 QUIZ TRAINER — 1,000 QUESTION ADAPTIVE UPDATE
+UPLOAD ALL OF THESE FILES TO THE ROOT OF YOUR EXISTING WSet2 GITHUB REPOSITORY.
 
-UPLOAD THESE FILES TO THE ROOT OF YOUR EXISTING WSet2 GITHUB REPOSITORY:
-- index.html
-- app.js
-- questions.js   <-- NEW
-- manifest.webmanifest
-- sw.js
-- icon-192.png
-- icon-512.png
+This v6 build fixes the duplicate wording issue:
+- 1,000 questions
+- 1,000 unique normalized question stems
+- no duplicate wording
+- red-grape answers only use red-grape distractors
+- white-grape answers only use white-grape distractors
+- adaptive repetition retained
+- cache bumped to wset2-v6
 
-WHAT CHANGED
-- 1,000-question practice bank
-- Adaptive repetition: wrong answers become much more likely to return; repeated correct answers become much less likely
-- 50-question mock exam uses the WSET Level 2 syllabus weighting: 5 vineyard, 4 winemaking, 19 principal varieties, 12 regional varieties, 6 sparkling/fortified, 4 service/storage/food
-- Progress persists on the device using localStorage
-- Offline/Home Screen support retained
+GitHub:
+1. Open WSet2.
+2. Add file > Upload files.
+3. Upload index.html, app.js, questions.js, manifest.webmanifest, sw.js, icon-192.png, icon-512.png.
+4. Commit changes.
+5. Wait 1-3 minutes.
+6. Open the GitHub Pages URL in Safari and refresh.
+7. If an installed Home Screen app still shows old content, open the site once in Safari after deployment, refresh, then close/reopen the Home Screen app.
 
-GITHUB UPDATE STEPS
-1. Open your existing WSet2 repository.
-2. Click Add file > Upload files.
-3. Drag ALL SEVEN app files from this folder into the upload area.
-4. GitHub will show that several filenames already exist. That is expected: uploading and committing them replaces the old versions.
-5. Confirm that questions.js is included. It did not exist in the old build.
-6. Scroll to Commit changes.
-7. Commit message: Update to 1000-question adaptive quiz
-8. Click Commit changes.
-9. Wait about 1-3 minutes for GitHub Pages to redeploy.
-10. Open your existing GitHub Pages URL.
-
-IF YOUR IPHONE STILL SHOWS THE OLD VERSION
-- Open the site once in Safari and refresh.
-- Close and reopen the Home Screen app.
-- The service worker cache name changed to wset2-v4, so the new version should replace the old cached app after reload.
-
-NOTE
-These are original practice questions written to align with WSET Level 2 topics and multiple-choice style. They are not official WSET questions or past-paper questions.
+VERIFICATION.txt contains the automated checks for this build.
