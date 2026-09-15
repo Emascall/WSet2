@@ -1,0 +1,9 @@
+WSET2 v8 QUALITY CHECK
+Total questions: 1000
+Unique stems: 1000
+Duplicate stems: 0
+Topic counts: {'principal': 380, 'regional': 240, 'vineyard': 100, 'winemaking': 80, 'sparkling': 120, 'service': 80}
+Red/white grape distractor mismatches: 0
+Each question has four distinct choices authored within the same semantic answer domain.
+Generic unrelated-true-statement distractors removed.
+Artificial scenario-number wording removed.
