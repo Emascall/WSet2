@@ -1,29 +1,37 @@
-WSET LEVEL 2 QUIZ TRAINER
+WSET LEVEL 2 QUIZ TRAINER — 1,000 QUESTION ADAPTIVE UPDATE
 
-FILES
+UPLOAD THESE FILES TO THE ROOT OF YOUR EXISTING WSet2 GITHUB REPOSITORY:
 - index.html
 - app.js
+- questions.js   <-- NEW
 - manifest.webmanifest
 - sw.js
 - icon-192.png
 - icon-512.png
 
-DEPLOY WITH GITHUB PAGES
-1. Create a new GitHub repository, for example: wset-quiz.
-2. Upload all six app files from this folder to the repository root.
-3. In GitHub, open Settings > Pages.
-4. Under Build and deployment, select Deploy from a branch.
-5. Select the main branch and / (root), then Save.
-6. Open the GitHub Pages URL on your phone.
+WHAT CHANGED
+- 1,000-question practice bank
+- Adaptive repetition: wrong answers become much more likely to return; repeated correct answers become much less likely
+- 50-question mock exam uses the WSET Level 2 syllabus weighting: 5 vineyard, 4 winemaking, 19 principal varieties, 12 regional varieties, 6 sparkling/fortified, 4 service/storage/food
+- Progress persists on the device using localStorage
+- Offline/Home Screen support retained
 
-INSTALL ON IPHONE
-1. Open the hosted app in Safari.
-2. Tap the Share button.
-3. Tap Add to Home Screen.
-4. Open it from the new Home Screen icon.
+GITHUB UPDATE STEPS
+1. Open your existing WSet2 repository.
+2. Click Add file > Upload files.
+3. Drag ALL SEVEN app files from this folder into the upload area.
+4. GitHub will show that several filenames already exist. That is expected: uploading and committing them replaces the old versions.
+5. Confirm that questions.js is included. It did not exist in the old build.
+6. Scroll to Commit changes.
+7. Commit message: Update to 1000-question adaptive quiz
+8. Click Commit changes.
+9. Wait about 1-3 minutes for GitHub Pages to redeploy.
+10. Open your existing GitHub Pages URL.
 
-INSTALL ON ANDROID
-1. Open the hosted app in Chrome.
-2. Use the browser menu and choose Install app / Add to Home screen.
+IF YOUR IPHONE STILL SHOWS THE OLD VERSION
+- Open the site once in Safari and refresh.
+- Close and reopen the Home Screen app.
+- The service worker cache name changed to wset2-v4, so the new version should replace the old cached app after reload.
 
-The app works offline after it has been loaded once. Missed-question progress is stored locally on the device.
+NOTE
+These are original practice questions written to align with WSET Level 2 topics and multiple-choice style. They are not official WSET questions or past-paper questions.
