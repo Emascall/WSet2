@@ -1,9 +1,9 @@
-WSET2 v8 QUALITY CHECK
-Total questions: 1000
-Unique stems: 1000
-Duplicate stems: 0
-Topic counts: {'principal': 380, 'regional': 240, 'vineyard': 100, 'winemaking': 80, 'sparkling': 120, 'service': 80}
-Red/white grape distractor mismatches: 0
-Each question has four distinct choices authored within the same semantic answer domain.
-Generic unrelated-true-statement distractors removed.
-Artificial scenario-number wording removed.
+WSET2 v10 QUALITY CHECK
+Total genuinely distinct question stems: 246
+Duplicate stems after removing filler prefixes: 0
+Artificial filler prefixes remaining: 0
+Imported screenshot mock questions retained: 50/50
+Topic counts: {'principal': 93, 'regional': 60, 'vineyard': 27, 'winemaking': 20, 'sparkling': 26, 'service': 20}
+
+Removed templated variants such as: For WSET Level 2..., Choose the best answer..., In this topic..., Which option correctly answers this question..., During exam revision....
+The bank is intentionally smaller rather than padding repeated facts to reach an arbitrary total.
