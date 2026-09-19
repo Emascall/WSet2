@@ -1,19 +1,9 @@
-WSET2 v12 QUALITY CHECK
-{
-  "total_questions": 619,
-  "topic_counts": {
-    "principal": 295,
-    "regional": 127,
-    "vineyard": 63,
-    "winemaking": 40,
-    "sparkling": 48,
-    "service": 46
-  },
-  "duplicate_stems": 0,
-  "answer_leaks": 0,
-  "user_provided_mock_questions": 50,
-  "coverage_terms_checked": 56,
-  "coverage_terms_missing": []
-}
+WSET2 v19 QUALITY CHECK
+Questions: 835
+Unique stems: 835
+Duplicate stems: 0
+Correct-answer leakage detected: 0
+All questions have 4 distinct answers: True
+All answer keys valid: True
 
-Built from the full published WSET Level 2 specification learning outcomes.
+Fixed IDs 381 and 382, whose grape names were disclosed in their question stems.
