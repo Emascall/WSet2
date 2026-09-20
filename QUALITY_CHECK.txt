@@ -1,9 +1,7 @@
-WSET2 v19 QUALITY CHECK
-Questions: 835
-Unique stems: 835
-Duplicate stems: 0
-Correct-answer leakage detected: 0
-All questions have 4 distinct answers: True
-All answer keys valid: True
-
-Fixed IDs 381 and 382, whose grape names were disclosed in their question stems.
+WSET2 v23 QUALITY CHECK
+Total questions: 1003
+New questions: 40
+Unique normalized question stems: 1003
+All questions have exactly 4 distinct answer choices: YES
+All correct-answer indexes valid: YES
+Service-worker cache: wset2-v23
