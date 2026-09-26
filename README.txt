@@ -1,2 +1,2 @@
-WSET Level 2 Trainer v23
-1003 unique questions. Added 40 Sauvignon Blanc questions from supplied class notes, covering varietal profile, Loire appellations, Marlborough comparison, regional influences, tasting and applied identification.
+WSET Level 2 Trainer v27
+1,174 unique questions. Added 40 questions from supplied Carménère, Malbec, Pinotage, ageing and tasting-concept class notes.
