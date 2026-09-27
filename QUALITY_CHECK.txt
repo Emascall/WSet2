@@ -1,7 +1,7 @@
-WSET2 v27 QUALITY CHECK
-Total questions: 1174
-New questions: 40
-Unique normalized question stems: 1174
+WSET2 v31 QUALITY CHECK
+Total questions: 1349
+New questions: 45
+Unique normalized question stems: 1349
 All questions have exactly 4 distinct answer choices: YES
 All correct-answer indexes valid: YES
-Service-worker cache: wset2-v27
+Service-worker cache: wset2-v31
